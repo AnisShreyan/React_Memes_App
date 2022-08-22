@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  text-align: Center;
+  margin-bottom: 1rem;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.meme {
+  height: 70vh;
+}
+
+.newMeme {
+
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 10px 20px;
+  border: none;
+  transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+  background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
+  color: #fff;
+}
+
+.download {
+  background: rgb(23, 164, 65);
+}
+
+
+
+/* Tablet */
+
+@media only screen and (max-width: 1024px) {
+  .meme {
+    width: 50vw;
+    height: auto;
+  }
+
+}
+
+/* Phone */
+
+@media only screen and (max-width: 580px) {
+  .meme {
+    width: 80vw;
+    height: auto;
+  }
+
+}
